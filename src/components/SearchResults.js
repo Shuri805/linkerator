@@ -1,9 +1,9 @@
 import React from 'react';
 
-const SearchResults = (props) => {
+const SearchResults = ({ results }) => {
   return (
     <div id="results">
-        <h3> Here are your results:</h3>
+        <h3> There are ({ results.length }) results</h3>
       </div>
   );
 }
