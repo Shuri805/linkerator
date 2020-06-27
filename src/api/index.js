@@ -1,17 +1,19 @@
 const twitter = {
-  name: "Twitter",
-  url: "twitter.com",
-  id: "1",
   comment: "twitter is cool",
-  tag: "twittertagdemo"
+  id: "1",
+  imageUrl: "https://help.twitter.com/content/dam/help-twitter/brand/logo.png",
+  name: "Twitter",
+  tag: "twittertagdemo",
+  url: "twitter.com",
 }
 
 const google = {
-  name: "Google",
-  url: "twitter.com",
-  id: "2",
   comment: "Google is cool",
-  tag: "googletagdemo"
+  id: "2",
+  imageUrl: "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+  name: "Google",
+  tag: "googletagdemo",
+  url: "twitter.com",
 }
 
 export async function fetchUrls(terms) {

@@ -15,8 +15,8 @@ import {
 //APP COMPONENT
 const App = () => {
   // fetchUrls().then(console.log);
-
   const [results, setResults] = useState([]);
+
   return (
     <div id="app">
       <SearchBar setResults={ setResults }/>
