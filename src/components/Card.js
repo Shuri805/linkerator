@@ -8,11 +8,17 @@ const Card = ({
 }) => {
   return (
     <div className="Card container">
-      <img className="card__image" src={ imageUrl } />
+      <div className="card__image">
+        <img className="preview"src={ imageUrl } />
+      </div>
       <div className="card_info">
         Name: { name } <br/>
         URL: { url } <br/>
         Tag: { tag } <br/>
+      </div>
+      <div className="actions">
+        <button className="button">(+) Add to List</button>
+        <button className="button">(-) Remove from List</button>
       </div>
     </div>
   );
