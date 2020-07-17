@@ -5,8 +5,9 @@ const Card = ({
   url,
   tag,
   imageUrl,
+  date,
 }) => {
-  return (
+  return (`
     <div className="Card container">
       <div className="card__image">
         <img className="preview"src={ imageUrl } />
@@ -14,7 +15,9 @@ const Card = ({
       <div className="card_info">
         Name: { name } <br/>
         URL: { url } <br/>
+        Comment: { comment } <br/>
         Tag: { tag } <br/>
+        Date: {date } <br/>
       </div>
       <div className="actions">
         <button className="button">(+) Add to List</button>

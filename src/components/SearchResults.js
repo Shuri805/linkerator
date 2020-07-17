@@ -4,7 +4,11 @@ import './SearchResults.css';
 import Card from './Card';
 
 
-const SearchResults = ({ results }) => {
+const SearchResults = ({
+  results,
+  addLinktoList,
+  removeLinkFromList
+ }) => {
   return (
     <div id="results">
         <h3> There are ({ results.length }) results</h3>
