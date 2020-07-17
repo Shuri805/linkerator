@@ -7,7 +7,7 @@ const Card = ({
   imageUrl,
   date,
 }) => {
-  return (`
+  return (
     <div className="Card container">
       <div className="card__image">
         <img className="preview"src={ imageUrl } />
